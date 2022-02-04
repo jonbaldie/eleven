@@ -47,4 +47,21 @@ php start.php stop
 php start.php status
 php start.php connections
 ```
+### Docker
+
+I've used this package in thecodingmachine's excellent [PHP images](https://github.com/thecodingmachine/docker-images-php):
+
+```
+docker run -it -p 3000:3000 -e PHP_EXTENSION_REDIS=1 -v (pwd):/usr/src/app thecodingmachine/php:8.1-v4-cli bash
+
+root@a6a4143b05cb:/usr/src/app# php start.php start -d
+Workerman[start.php] start in DAEMON mode
+----------------------------------------- WORKERMAN -----------------------------------------
+Workerman version:4.0.26          PHP version:8.1.1
+------------------------------------------ WORKERS ------------------------------------------
+proto   user            worker          listen                 processes    status
+tcp     root            none            http://0.0.0.0:3000    4             [OK]
+---------------------------------------------------------------------------------------------
+Input "php start.php stop" to stop. Start success.
+```
 
