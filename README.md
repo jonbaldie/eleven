@@ -42,9 +42,16 @@ Going to http://127.0.0.1:3000/hello/world will now display "Hello world".
 
 ### Available commands
 ```
+# To restart the worker threads:
 php start.php restart -d
+
+# To stop the worker threads:
 php start.php stop
+
+# To get a pretty status table:
 php start.php status
+
+# To see a list of active connections:
 php start.php connections
 ```
 ### Docker
