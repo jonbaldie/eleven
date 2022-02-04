@@ -77,6 +77,8 @@ Storing your application in memory is a great way to get a massive speed boost a
 
 But if you don't manage your application's state well, then you will start to see weird issues from data in one session leaking into another session.
 
+This is why I try to avoid shared state and the use of static variables in PHP. These are very convenient when trying to rapidly build a project, but they will bite you in the rear at a later date, usually when you are least prepared for it!
+
 You are best using the concept of a pure, deterministic state in your application code, even if you don't subscribe fully to the paradigm of functional programming.
 
 I love functional programming and think it is a great way to keep your code testable and maintainable - I even created a [separate PHP micro-framework](https://github.com/jonbaldie/functions) around those principles.
