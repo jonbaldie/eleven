@@ -3,7 +3,6 @@
 use Eleven\App;
 
 require 'vendor/autoload.php';
-require 'src/App.php';
 
 $api = new App('http://0.0.0.0:3000');
 
