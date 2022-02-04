@@ -1,0 +1,19 @@
+{
+  "name": "jonbaldie/eleven",
+  "type": "library",
+  "license": "MIT",
+  "description": "A high-performance micro-framework based on workerman.",
+  "require": {
+    "php": ">=8.1",
+    "workerman/workerman": "^4.0",
+    "nikic/fast-route": "^1.3"
+  },
+  "suggest": {
+    "ext-event": "For better performance. "
+  },
+  "autoload": {
+    "psr-4": {
+      "Eleven\\": "./src"
+    }
+  }
+}
