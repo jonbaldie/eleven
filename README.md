@@ -90,3 +90,4 @@ I love functional programming and think it is a great way to keep your code test
 - [ ] Test suite set up
 - [ ] Static analysis set up
 - [ ] CircleCI configuration
+- [ ] v1.0.0 release
