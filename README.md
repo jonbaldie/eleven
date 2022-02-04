@@ -7,13 +7,13 @@ Eleven is a high-performance micro-framework for rapidly developing APIs in PHP.
 ```
 composer require jonbaldie/eleven
 ```
-
 ### Usage
 
 start.php
 
 ```php
 <?php
+
 use Eleven\App;
 
 require 'vendor/autoload.php';
