@@ -79,7 +79,7 @@ But if you don't manage your application's state well, then you will start to se
 
 This is why I try to avoid shared state and the use of static variables in PHP. These are very convenient when trying to rapidly build a project, but they will bite you in the rear at a later date, usually when you are least prepared for it!
 
-One of the biggest pain points is data in the user session. Try using cookies or a remote store such as Redis to make sure that your worker threads are all singing from the same hymn sheet and to keep your application as stateless as possible.
+One of the biggest pain points is user session data. Try using cookies or a remote store such as Redis to make sure that your worker threads are all singing from the same hymn sheet and to keep your application as stateless as possible.
 
 You will write your best code when following the concept of a pure, deterministic state in your application, even if you don't subscribe fully to the paradigm of functional programming.
 
