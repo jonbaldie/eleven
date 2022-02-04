@@ -71,4 +71,12 @@ tcp     root            none            http://0.0.0.0:3000    4             [OK
 ---------------------------------------------------------------------------------------------
 Input "php start.php stop" to stop. Start success.
 ```
+### Caveats
 
+Storing your application in memory is a great way to get a massive speed boost and unbelievable resource efficiency. 
+
+But if you don't manage your application's state well, then you will start to see weird issues from data in one session leaking into another session.
+
+You are best using the concept of a pure, deterministic state in your application code, even if you don't subscribe fully to the paradigm of functional programming.
+
+I love functional programming and think it is a great way to keep your code testable and maintainable - I even created a [separate PHP micro-framework](https://github.com/jonbaldie/functions) around those principles.
