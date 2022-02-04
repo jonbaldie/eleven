@@ -82,3 +82,11 @@ This is why I try to avoid shared state and the use of static variables in PHP. 
 You will write your best code when following the concept of a pure, deterministic state in your application, even if you don't subscribe fully to the paradigm of functional programming.
 
 I love functional programming and think it is a great way to keep your code testable and maintainable - I even created a [separate PHP skeleton project](https://github.com/jonbaldie/functions) around those principles.
+
+### Roadmap
+
+- [X] Basic functionality
+- [X] Composer package published
+- [ ] Test suite set up
+- [ ] Static analysis set up
+- [ ] CircleCI configuration
