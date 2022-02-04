@@ -4,11 +4,11 @@ Eleven is a high-performance micro-framework for rapidly developing APIs in PHP.
 
 ### Install
 
-`composer require jonbaldie/eleven`
+```
+composer require jonbaldie/eleven
+```
 
 ### Usage
-
-start.php
 
 ```php
 <?php
