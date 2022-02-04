@@ -1,5 +1,7 @@
 ## Eleven PHP micro-framework
 
+[![CircleCI](https://circleci.com/gh/jonbaldie/eleven/tree/main.svg?style=svg)](https://circleci.com/gh/jonbaldie/eleven/tree/main)
+
 Eleven is a high-performance micro-framework for rapidly developing APIs in PHP. It's inspired by `passwalls/mark` but takes a slightly different approach.
 
 ### Install
