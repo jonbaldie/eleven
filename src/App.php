@@ -150,7 +150,7 @@ class App extends Worker
      */
     public function start()
     {
-        $this->dispatcher = simpleDispatcher(function(RouteCollector $r) {
+        $this->dispatcher = simpleDispatcher(function (RouteCollector $r) {
             foreach ($this->routeInfo as $method => $callbacks) {
                 foreach ($callbacks as $info) {
                     $r->addRoute($method, $info[0], $info[1]);
